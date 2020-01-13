@@ -1,0 +1,70 @@
+.header {
+    display: flex;
+    background-image: linear-gradient(to bottom right,#167bd3 , #00f2fe);
+}
+
+
+.header .title {
+    font-size: 30px;
+    font-weight: 800;
+    margin-left: 30px;
+}
+
+.row{
+    display: flex;
+    
+}
+
+.titleBreak{
+    text-align: left;
+    font-weight: bolder;
+    font-size: 60px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.paragraph{
+    font-size: 25px;
+   text-align: justify; 
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   opacity: 0.5;
+}
+
+.row .col1 {
+    margin: auto;
+    margin-top: 50px;
+}
+
+.row .col2 {
+    margin: auto;
+}
+
+.box {
+    padding: 20px;
+    padding-bottom: 60px;
+}
+
+.pic {
+    width: 700px;
+    height: 500px;
+    margin-left: -100px;
+}
+
+.joinBtn {
+    width: 170px;
+    height: 60px;
+    border-radius: 40px;
+    font-size: 19px;
+    margin-top: 20px;
+    color: white;
+    font-weight: bold;
+    background-image: linear-gradient(to bottom right, #e45bf3, #f88393);
+}
+
+.joinBtn:hover {
+    background-image: linear-gradient(to bottom right, #65eb59, #20aa2c);
+}
+
+.login-input{
+    color: white;
+    /* background-color: white; */
+    border-radius: 5px;
+}
